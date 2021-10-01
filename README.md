@@ -1,0 +1,2 @@
+# automatic
+Share script automatic
