@@ -24,7 +24,7 @@ function auto_cmt_img($access_token,$idpost,$mess,$img){
       return $result;
     }
 }
-function auto_cmt_no_img($access_token,$idpost,$mess,$img){
+function auto_cmt_no_img($access_token,$idpost,$mess){
     $url = "https://graph.facebook.com/{$idpost}/comments";
     $data = array(
         "access_token" => $access_token,
